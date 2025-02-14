@@ -7,6 +7,7 @@ body {
 
 header {
     background-color: #eee;
+    height: 180px;
     color: darkcyan;
     padding: 10px;
     text-align: center;
@@ -61,7 +62,7 @@ header p, header select {
 }
 
 #category-filter {
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 #category-filter ul {
@@ -72,7 +73,7 @@ header p, header select {
 
 #category-filter ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 5px;
     padding: 10px;
 }
 
@@ -82,7 +83,8 @@ header p, header select {
 }
 
 #category-filter ul li a:hover{
-    padding: 10px 10px;
+    padding: 10px;
+    width: 210px;
     color: white;
     background-color: darkcyan;
 }
@@ -110,6 +112,31 @@ main {
     width: calc(33.333% - 20px);
     box-sizing: border-box;
     text-align: center;
+}
+
+.product-name {
+font-size: 18px;
+margin-bottom: 0;
+}
+
+.event p{
+    font-size: 14px;
+}
+
+.view-event{
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0;
+    border: 1px solid darkcyan;
+    width: 210px;
+    margin: 10px auto;
+}
+
+.view-event:hover{
+    color: white;
+    background-color: darkcyan;
 }
 
 .event img {
