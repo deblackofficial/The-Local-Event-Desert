@@ -6,9 +6,9 @@ body {
 }
 
 header {
-    background-color: #1b029b;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #eee;
+    color: darkcyan;
+    padding: 10px;
     text-align: center;
 }
 
@@ -23,25 +23,78 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: darkcyan;
     text-decoration: none;
+}
+
+nav ul li a:hover{
+    padding: 10px 10px;
+    color: white;
+    background-color: darkcyan;
+}
+
+nav ul li a.active{
+    padding: 10px 10px;
+    color: white;
+    background-color: darkcyan;
 }
 
 header p, header select {
     margin: 10px 0;
 }
 
-#search {
-    padding: 5px;
-    width: 200px;
+#search input{
+    margin: 0px;
+    justify-content: center;
+    border: solid 1px darkcyan;
+    padding: 10px;
+    width: 450px;
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+    color: darkcyan;
+    font-size: 1em;
+}
+
+#search:focus {
+    outline: none;
 }
 
 #category-filter {
-    padding: 5px;
+    padding: 10px 10px;
+}
+
+#category-filter ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#category-filter ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#category-filter ul li a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+#category-filter ul li a:hover{
+    padding: 10px 10px;
+    color: white;
+    background-color: darkcyan;
+}
+
+#category-filter ul li a.active{
+    padding: 10px 10px;
+    color: white;
+    background-color: darkcyan;
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
 #events-list {
@@ -65,11 +118,11 @@ main {
 }
 
 footer {
-    background-color: #1b029b;
-    color: #fff;
+    background-color: #eee;
+    color: darkcyan;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
 }
